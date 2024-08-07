@@ -1,0 +1,25 @@
+@import '../../styles/index.module.scss';
+
+.emenu_cont {
+  display: flex;
+  flex-direction: column;
+
+  .text {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    .span{
+        color: $primary;
+    }
+  }
+  .smaller_text{
+    font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+letter-spacing: 0.04em;
+text-align: center;
+color: #18181780;
+  }
+}
