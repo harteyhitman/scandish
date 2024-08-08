@@ -1,0 +1,92 @@
+@import "../../styles/globals.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.big_text {
+  //   font-family: Karla;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.76px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.card_main {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 80%;
+  position: relative;
+  z-index: 50;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fde280;
+  padding: 59px 10px 36px 12px;
+  border-radius: 10px;
+  width: 100%;
+  .top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 32px;
+    height: 31px;
+    color: #322700;
+  }
+
+  .bold_text {
+    // font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 19.2px;
+    text-align: center;
+    color: #2f2f2e;
+  }
+}
+
+.light_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #2f2f2e;
+}
+.enhanced {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 85%;
+  height: 400px;
+  background-color: #4b3b00;
+  border-radius: 20px;
+  position: relative;
+  top: -132px;
+  z-index: 1;
+  padding: 20px 30px;
+
+  .enhanced_text {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: center;
+    color: #fff;
+  }
+
+}
+.menu_icon{
+    position: relative;
+    bottom: -70px;
+  }
+

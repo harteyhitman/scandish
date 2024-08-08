@@ -1,7 +1,7 @@
 import React from "react";
 import navbar from "./navbar.module.scss";
-import { Icon } from "@iconify/react/dist/iconify.cjs";
 import { navslist } from "@/data";
+import { GiMeal } from "react-icons/gi";
 import Button from "@/components/button";
 import Link from "next/link";
 
@@ -11,8 +11,7 @@ const Navbar = () => {
     <div className={navbar.main_navs}>
       <div className={navbar.logo_cont}>
         <Link href='/'>
-          <Icon
-          icon="fluent:dishwasher-32-filled"
+          <GiMeal
           className={navbar.scandish_logo}
         />
         </Link>

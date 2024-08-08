@@ -1,25 +1,29 @@
-@import '../../styles/index.module.scss';
-
+@import '../../styles/globals.scss';
 .emenu_cont {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-
+  margin: 50px 10px;
+  gap: 12px;
   .text {
     text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: 500;
     text-align: center;
     .span{
-        color: $primary;
+        color: #FE562A;
     }
   }
   .smaller_text{
-    font-family: Lato;
-font-size: 24px;
-font-weight: 600;
-line-height: 28.8px;
-letter-spacing: 0.04em;
-text-align: center;
-color: #18181780;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #8C8C8B;
   }
+}
+.image{
+    margin: 50px 0px;
+    width: 80%;
 }

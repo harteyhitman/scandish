@@ -1,1 +1,5 @@
-@import '../styles/index.module.scss'
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
